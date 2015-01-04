@@ -1,0 +1,4 @@
+gom 'github.com/gorilla/mux'
+gom 'github.com/gorilla/websocket'
+gom 'github.com/Shopify/sarama'
+
