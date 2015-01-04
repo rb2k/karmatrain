@@ -1,0 +1,9 @@
+language: go
+sudo: false
+go:
+  - 1.3
+  - 1.4
+before_install:
+  - go get github.com/mattn/gom
+script:
+  - gom build -o travis_build
